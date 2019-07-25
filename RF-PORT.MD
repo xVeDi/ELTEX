@@ -88,9 +88,12 @@ snmpset -v2c -c community_rw -t 20 IP_ADDRESS .1.3.6.1.4.1.35265.1.22.1.50.0 u 1
 
 ## Ссылки
 
-Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
-
-| Ресурсы |
-| ------ |
-| [МА4000-РХ. Руководство по SNMP. Версия ПО 3.26.1](https://eltex-co.ru/upload/iblock/ae5/ma4000_nastroyka_i_monitoring_po_snmp.pdf) | 
+| Ресурсы | Ссылка |
+| ------ | ------ |
+| МА4000-РХ. Руководство по SNMP. Версия ПО 3.26.1 | https://eltex-co.ru/upload/iblock/ae5/ma4000_nastroyka_i_monitoring_po_snmp.pdf |
+| MA4000-PX. Справочник команд CLI. Версия ПО 3.26.1 | https://eltex-co.ru/upload/iblock/f95/ma4000_spravochnik_komand_cli_3_26_1.pdf |
+| LTP-8X. Настройка и мониторинг по SNMP | https://eltex-co.ru/upload/iblock/c5e/Настройка%20и%20мониторинг%20OLT%20по%20SNMP%203.36.0.pdf |
+| LTP-8X. Справочник команд CLI. Версия 3.36.0 | https://eltex-co.ru/upload/iblock/fc0/LTP-X%20CLI%203.36.0.pdf |
+| MIB для LTP-8X | https://mibs.observium.org/mib/ELTEX-LTP8X/# |
+| ASCII,Hex,Binary,Decimal,Base64 converter | https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html |
 
