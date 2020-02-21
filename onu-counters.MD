@@ -61,10 +61,10 @@ printf "%d.%d.%d.%d.%d.%d.%d.%d\n" "'${a:0}" "'${a:1}" "'${a:2}" "'${a:3}" "0x${
 
 | Ресурсы | Ссылка |
 | ------ | ------ |
-| МА4000-РХ. Руководство по SNMP. Версия ПО 3.26.1 | https://eltex-co.ru/upload/iblock/ae5/ma4000_nastroyka_i_monitoring_po_snmp.pdf |
-| MA4000-PX. Справочник команд CLI. Версия ПО 3.26.1 | https://eltex-co.ru/upload/iblock/f95/ma4000_spravochnik_komand_cli_3_26_1.pdf |
-| LTP-8X. Настройка и мониторинг по SNMP | https://eltex-co.ru/upload/iblock/c5e/Настройка%20и%20мониторинг%20OLT%20по%20SNMP%203.36.0.pdf |
-| LTP-8X. Справочник команд CLI. Версия 3.36.0 | https://eltex-co.ru/upload/iblock/fc0/LTP-X%20CLI%203.36.0.pdf |
+| МА4000-РХ. Руководство по SNMP. | https://eltex-co.ru/catalog/olt-gpon/ma4000-px/ |
+| MA4000-PX. Справочник команд CLI.| https://eltex-co.ru/catalog/olt-gpon/ma4000-px/ |
+| LTP-8X (rev.C). Настройка и мониторинг по SNMP | https://eltex-co.ru/catalog/olt-gpon/olt_ltp-8x_rev-c/ |
+| LTP-8X (rev.C). Справочник команд CLI. | https://eltex-co.ru/catalog/olt-gpon/olt_ltp-8x_rev-c/ |
 | MIB для LTP-8X | https://mibs.observium.org/mib/ELTEX-LTP8X/# |
 | ASCII,Hex,Binary,Decimal,Base64 converter | https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html |
 
