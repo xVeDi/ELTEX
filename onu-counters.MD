@@ -17,11 +17,11 @@ MA4000# show interface ont <SLOT>/<GPON-port>/<ONT-ID> counters cross-connect
 
 ### Downstream - Total octets
 ```
-snmpset -v2c -c community_rw IP_ADDRESS .1.3.6.1.4.1.35265.1.22.3.3.10.1.6.<SLOT>.8.XX.XX.XX.XX.XX.XX.XX.XX.1.1
+snmpget -v2c -c community IP_ADDRESS .1.3.6.1.4.1.35265.1.22.3.3.10.1.6.<SLOT>.8.XX.XX.XX.XX.XX.XX.XX.XX.1.1
 ```
 ### Upstream - Total octets
 ```
-snmpset -v2c -c community_rw IP_ADDRESS .1.3.6.1.4.1.35265.1.22.3.3.11.1.6.<SLOT>.8.XX.XX.XX.XX.XX.XX.XX.XX.1.1
+snmpget -v2c -c community IP_ADDRESS .1.3.6.1.4.1.35265.1.22.3.3.11.1.6.<SLOT>.8.XX.XX.XX.XX.XX.XX.XX.XX.1.1
 ```
 
 где:
@@ -42,7 +42,7 @@ snmpset -v2c -c community_rw IP_ADDRESS .1.3.6.1.4.1.35265.1.22.3.3.11.1.6.<SLOT
 
 Пример:
 ```
-snmpset -v2c -c community_rw -t 20 IP_ADDRESS .1.3.6.1.4.1.35265.1.22.3.4.1.32.1.8.69.76.84.88.114.1.10.4 i 1
+snmpget -v2c -c community IP_ADDRESS .1.3.6.1.4.1.35265.1.22.3.3.11.1.6.<SLOT>.8.69.76.84.88.114.1.10.4.1.1
 ```
 ### Bash-скрипт для преобразования серийного номера ONU в десятичное представление
 ```
