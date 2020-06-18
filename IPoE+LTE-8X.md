@@ -90,6 +90,17 @@ OLT0 reconfiguration successfull. ONTs configuration may take several minutes.
 LTE-8X-6(OLT0)# 
 ```
 
+```
+# Установить идентификатор хоста = 0 для корректной работы DHCP-парсера
+LTE-8X-6# set host_id 0
+```
+
+```
+# Сохранить все настройки
+LTE-8X-6# save
+```
+
+
 
 ### Настройка коммутатора Extreme
 ```
